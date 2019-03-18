@@ -130,7 +130,7 @@
 		margin: 0em auto;
 		padding: 5em 0;
 	}
-	/*归档页无调整*/
+	/*文章页无调整*/
 	/*分类页无调整*/
 	/*标签页无调整*/
 	/*关于页*/
@@ -160,7 +160,7 @@
 	.layout-poem {
 		width: 80%;
 	}
-	/*归档页*/
+	/*文章页*/
 	.layout-archive {
 		width: 80%;
 	}
@@ -210,7 +210,7 @@
 		/*For people who likes pure style*/
 		width: 90%;
 	}
-	/*归档页*/
+	/*文章页*/
 	.layout-archive {
 		width: 90%;
 	}
@@ -228,7 +228,7 @@
 }
 
 @media screen and (max-width: 700px) {
-	/*归档页*/
+	/*文章页*/
 	.layout-archive {
 		width: 95%;
 	}

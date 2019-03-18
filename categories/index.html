@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <title>
     
-      文章归档: 2019/3 | Greedy | Blog
+      categories | Greedy | Blog
     
   </title>
   <meta name="author" content="Greedy">
@@ -106,7 +106,7 @@
 				<!-- Page title -->
 				<p>
 					
-						文章归档
+						分类
 					
 				</p>
 				<!-- Progress bar -->
@@ -215,142 +215,41 @@
 		
 		<!--main-->
 		<main>
-			<!--
-	时间：2018-11-08
-	描述：The archive module refers to 'https://1984n.win/archives-post/' & 'http://1900.live/one-theme/', include js、css. Relevant rights reserved by them! 
--->
-<div class="layout-archive">
-    <div class="i-container">
-        <i class="fa fa-book">
-			
-				总计 2 篇 文章
-			
-		</i>
-    </div>
+			<!--content start-->
+<div class="layout-page">	
+	<div class="layout-page-container">
 
-    <!-- Archive by year, display in page( archive ) -->
-    <div id="layout-archive-year" style="display: 
-                 	
-            block">        
-        
-        
-        <ul>
-            
-                <li>
-                    <a href="/GreedyBlog/2019/03/18/cjtecevyx0000jov6tbq5t5ue/">
-            			<em year="2019">
-                            03-18
-                        </em>
-        			    <span itemprop="name">
-                            Demo
-                        </span>
-        			    
-                			<a href="/GreedyBlog/tags/Demo/" class="tag">
-                				Demo
-                			</a>
-                        
-                			<a href="/GreedyBlog/tags/other/" class="tag">
-                				other
-                			</a>
-                        
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/GreedyBlog/2019/03/18/cjtecevzm0005jov6f52d8v7i/">
-            			<em year="2019">
-                            03-18
-                        </em>
-        			    <span itemprop="name">
-                            Demo2
-                        </span>
-        			    
-                			<a href="/GreedyBlog/tags/Demo/" class="tag">
-                				Demo
-                			</a>
-                        
-                			<a href="/GreedyBlog/tags/other/" class="tag">
-                				other
-                			</a>
-                        
-                    </a>
-                </li>
-            
-        </ul>
-    </div>
+		<div class="layout-page-header">
 
-     <!-- Archive by month, called by page( categories, tags... ) -->
-    <div id="layout-archive-month" style="display: 
-         
-            none"> 
-        
+	
 
-        
-        
-            
+		<i class="fa fa-pencil-square-o">总计 0 个 分类</i>
 
-            
-                
-                <h3 class="archive-year">
-                    <!-- <a href="/GreedyBlog/archives/2019/03"> -->
-                    <a>
-                        2019 - 03
-                    </a>
-                </h3>
-            
-
-            <ul>
-                <li>
-                    <a href="/GreedyBlog/2019/03/18/cjtecevyx0000jov6tbq5t5ue/">
-                        <em>
-                            03-18
-                        </em>
-                        <span itemprop="name">
-                            Demo
-                        </span>
-                        
-                            <a href="/GreedyBlog/tags/Demo/" class="tag">
-                                Demo
-                            </a>
-                        
-                            <a href="/GreedyBlog/tags/other/" class="tag">
-                                other
-                            </a>
-                               
-                    </a>
-                </li>
-            </ul>
-        
-            
-
-            
-
-            <ul>
-                <li>
-                    <a href="/GreedyBlog/2019/03/18/cjtecevzm0005jov6f52d8v7i/">
-                        <em>
-                            03-18
-                        </em>
-                        <span itemprop="name">
-                            Demo2
-                        </span>
-                        
-                            <a href="/GreedyBlog/tags/Demo/" class="tag">
-                                Demo
-                            </a>
-                        
-                            <a href="/GreedyBlog/tags/other/" class="tag">
-                                other
-                            </a>
-                               
-                    </a>
-                </li>
-            </ul>
-        
-    </div>
-
-    
+	
+	
 </div>
+
+		
+
+			<div class="category">
+				
+			</div>
+
+		
+	</div>
+
+	
+		<!-- 
+			ajax 查询相应标签or分类的文章 
+			We can use "Content filtering plugin" to instead ajax!
+		-->
+		<div class="layout-TCP-container">
+			<div id="TCP-title"></div>
+			<div id="TCP-content"></div>
+		</div>
+	
+</div>
+
 		</main>
 		
 		<!--footer-->

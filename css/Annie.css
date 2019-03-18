@@ -890,23 +890,6 @@ main {
 	float: right;
 }
 
-
-/* gallery - 相册 */
-
-.layout-gallery {
-	width: 96%;
-	margin: 0em auto;
-	padding: 4em 0;
-	border: 1px solid transparent;
-	background-color: #FFFFFF;
-}
-
-.natural-gallery,
-.annie-gallery {
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-
 /*Animation - 动画*/
 
 .annie-animation-1 {
